@@ -1,6 +1,6 @@
 {
   "name": "redux-future-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux middleware for working with promises",
   "main": "lib/index.js",
   "author": "1ven <1ven.mironchik@gmail.com>",
