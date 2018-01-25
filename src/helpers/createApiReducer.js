@@ -26,7 +26,8 @@ const createEntryReducer = (types, merge) => (
       return {
         ...state,
         isFetching: false,
-        error: payload.data || payload.message
+        error: payload.data || payload.message,
+        lastUpdated: payload.meta.receivedAt
       };
     default:
       return state;
